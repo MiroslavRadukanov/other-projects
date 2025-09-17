@@ -35,5 +35,5 @@ elif haveacc.lower() == "no":
         if not usertaken:
             balance = 5000
             with open("/storage/emulated/0/Download/users.txt", "a") as f:
-                f.write(f"{user},{password},{balance}\n")
+                f.write(f"\n{user},{password},{balance}")
             print("Registration successful!")
